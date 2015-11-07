@@ -1,0 +1,15 @@
+Welcome to the Idris REPL!
+h
+hey
+No such variable hey
+λΠ> color
+No such variable color
+Type checking ./traffic.idr
+Type checking ./traffic.idr
+λΠ> color
+color : Type
+λΠ> nextColor red
+green : color
+λΠ> nextColor green
+yellow : color
+λΠ> 
